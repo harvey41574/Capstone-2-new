@@ -1,0 +1,97 @@
+h1 {
+    color:#FFF7E9;
+        font-family: "Yesteryear", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 50px;
+        margin-bottom: 0;
+
+          
+}
+h2 {
+    color: 
+    #FFF7E9;
+    font-family: "Bruno Ace SC", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: smaller;
+    margin-top: 0;
+
+}
+
+.top-container {
+    position: relative;
+    width:100%;
+
+}
+
+.top-image {
+    display: block;
+    width:100%;
+}
+.title-box {
+    position: absolute;
+    text-align: center;
+    align-content: center;
+    top:0%;
+    left:40%;
+    
+    @media (max-width: 600px) { .title-box { font-size: 18px; } } @media (max-width: 400px)
+    { .title-box { font-size: 14px; }
+}
+}
+
+.middle-container {
+    width: 100%;
+    background-color: #FFF7E9;
+    text-align: center;
+    align-content: center;
+}
+.greeting {
+    color:#0D0CB5;
+}
+p {
+    color:#0D0CB5;
+    font-family: "Bruno Ace SC", serif;
+    font-weight: 400;
+    font-style: normal;  
+}
+.profile-img {
+    margin-top: 50px;
+}
+.skills-h2 {
+    color:#0D0CB5;
+    font-size: large;
+}
+.github-link{
+    color: #0D0CB5;
+    font-family: "Bruno Ace SC", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: small;
+
+}
+.contact-h2 {
+    margin-top: 35px;
+    color:#0D0CB5;
+    font-size: large;
+}
+
+.bottom-container {
+    display: flex;
+    position: relative;
+    background-color: #0D0CB5;
+    align-content: center;
+    
+}
+
+.footer-link {
+    position: absolute;
+    left: 50%;
+    color: #FFF7E9
+}
+.copyright {
+    font-size: xx-small;
+    left: 50%;
+    color: #BECBFF;
+}
